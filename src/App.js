@@ -1,9 +1,21 @@
+import Box from '@mui/material/Box'
+import Container from '@mui/material/Container'
+
+import TopHeader from './components/TopHeader'
+import '@fontsource/poppins'
 
 function App () {
   return (
-    <div>
-      setup
-    </div>
+    <Box
+      sx={{
+        fontFamily: 'Poppins',
+        paddingTop: '30px'
+      }}
+    >
+      <Container maxWidth='md'>
+        <TopHeader />
+      </Container>
+    </Box>
   )
 }
 
