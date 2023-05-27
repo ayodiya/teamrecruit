@@ -1,11 +1,10 @@
 
-
-function App() {
+function App () {
   return (
     <div>
       setup
-  </div>
-  );
+    </div>
+  )
 }
 
-export default App;
+export default App
