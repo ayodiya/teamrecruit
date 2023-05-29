@@ -1,8 +1,8 @@
 import Box from '@mui/material/Box'
 import Container from '@mui/material/Container'
-
-import TopHeader from './components/TopHeader'
 import '@fontsource/poppins'
+
+import CreditCardInput from './components/CreditCardInput'
 
 function App () {
   return (
@@ -12,8 +12,8 @@ function App () {
         paddingTop: '30px'
       }}
     >
-      <Container maxWidth='md'>
-        <TopHeader />
+      <Container maxWidth='lg'>
+        <CreditCardInput />
       </Container>
     </Box>
   )
